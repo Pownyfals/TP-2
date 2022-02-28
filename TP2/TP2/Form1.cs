@@ -6,5 +6,15 @@ namespace TP2
 		{
 			InitializeComponent();
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			label1.Text = "Hallo " + textBox.Text;
+		}
+
+		private void textBox_TextChanged(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
